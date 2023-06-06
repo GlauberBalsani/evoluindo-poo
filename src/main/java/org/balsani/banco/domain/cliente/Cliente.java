@@ -9,12 +9,14 @@ public class Cliente {
 
     private Conta conta;
 
-    public Cliente(Cpf cpf, String nome, Email email, Conta conta) {
+    public Cliente(Cpf cpf, String nome, Email email) {
         this.cpf = cpf;
         this.nome = nome;
         this.email = email;
-        this.conta = conta;
+
     }
 
-
+    public Cpf getCpf() {
+        return cpf;
+    }
 }
