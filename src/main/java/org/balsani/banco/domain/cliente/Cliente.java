@@ -19,4 +19,12 @@ public class Cliente {
     public Cpf getCpf() {
         return cpf;
     }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public Email getEmail() {
+        return email;
+    }
 }
